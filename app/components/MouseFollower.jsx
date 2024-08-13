@@ -43,7 +43,7 @@ function MouseFollower() {
   }, [mousePosition]);
 
   return (
-    <div 
+    <div className='follower'
       ref={followerRef} 
       style={{
         position: 'absolute',

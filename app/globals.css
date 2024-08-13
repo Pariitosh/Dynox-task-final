@@ -417,6 +417,9 @@ footer p{
   footer ul li{
     font-size: 14px;
   }
+  .follower{
+    display: none;
+  }
   footer{
     margin-top: 0px;
   }
