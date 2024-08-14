@@ -15,8 +15,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Home() {
   const [current, setCurrent] = useState(0)
   const [loaded, setLoaded] = useState(false)
-  const isMobile = window.innerWidth < 480
-  console.log(isMobile)
+ 
   useEffect(() => {
     const changeImage = () => {
       setCurrent(prev => (prev === 5 ? 0 : prev + 1));
