@@ -389,6 +389,9 @@ footer p{
     font-size: 25px;
     color: #505559;
   }
+  .scroll-down-wrapper{
+    display: none;
+  }
   .footer-logo{
     width: 90%;
     background-repeat: no-repeat;
